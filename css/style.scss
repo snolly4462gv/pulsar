@@ -1,5 +1,71 @@
+a{
+    color: #000;
+    &:hover{
+        color: #000;
+        
+    }
+}
 .max-w-675{
     max-width: 675px;
     margin: 0 auto;
     
+}
+.sec-lvl-2{
+    box-shadow: 0 1.5px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.05);
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 17px 0;
+        .side{
+            width: 100%;
+            &.left-side{
+                display: flex;
+                align-items: center;
+                padding-left: 45px;
+                img{
+                    flex-shrink: 0;
+                     opacity: 0.28;
+                }
+                .name{
+                    padding-left: 10px;
+                    opacity: 0.28;
+                    font-family: BebasNeueBold;
+                    font-size: 22px;
+                }
+            }
+            &.mid-side{
+                width: 100%;
+                max-width: 1170px;
+                flex-shrink: 0;
+                ul{
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0;
+                    li{
+                        a{
+                            font-size: 24px;
+                            font-family: BebasNeueRegular;
+                            text-transform: uppercase;
+                            transition: 0.3s;
+                            &.active{
+                                color: #ff455d;
+                            }
+                            &:hover{
+                                color: #ff455d;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+        
+        
+    }
+    .about{
+        
+        
+    }
 }
