@@ -92,12 +92,12 @@ a {
           line-height: 14px; }
         .sec-lvl-1 .for-abs-logo .rel-logo .logo .abs-circle {
           position: absolute;
-          width: 210px;
-          height: 210px;
+          width: 205px;
+          height: 205px;
           border-radius: 50%;
           border: 1px solid #ff5268;
           top: 0;
-          left: 0;
+          left: -70px;
           display: flex;
           padding: 4px; }
           .sec-lvl-1 .for-abs-logo .rel-logo .logo .abs-circle:before {

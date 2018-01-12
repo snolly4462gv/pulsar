@@ -2,34 +2,39 @@
     font-family: ARIALN;
     src: url(../fonts/ARIALN.TTF);
 }
+
 @font-face {
     font-family: BebasNeueBold;
     src: url(../fonts/BebasNeueBold.otf);
 }
+
 @font-face {
     font-family: BebasNeueBook;
     src: url(../fonts/BebasNeueBook.otf);
 }
+
 @font-face {
     font-family: BebasNeueRegular;
     src: url(../fonts/BebasNeueRegular.otf);
 }
 
-.max-w-960{
-	max-width: 960px;
-	margin: 0 auto;
+.max-w-960 {
+    max-width: 960px;
+    margin: 0 auto;
 }
-.max-w-865{
+
+.max-w-865 {
     max-width: 864px;
     margin: 0 auto;
 }
-.section-10-getting{
-	width:100%;
-	background-image: url(../img/my1.png);
+
+.section-10-getting {
+    width: 100%;
+    background-image: url(../img/my1.png);
     background-size: cover;
-    background-position:top -400px center;
+    background-position: top -400px center;
     position: relative;
-    &:before{
+    &:before {
         content: "";
         position: absolute;
         display: block;
@@ -39,44 +44,132 @@
         height: 100%;
         z-index: 2;
         background: #3b3b3b;
-        opacity: 0.93; 
+        opacity: 0.93;
     }
-    .max-w-960{
+    .max-w-960 {
         position: relative;
         z-index: 5;
     }
-	h3{
-		color: #fff;
-		font-size: 36px;
-		font-family: BebasNeueBold;
-		padding-top: 30px;
+    h3 {
+        color: #fff;
+        font-size: 36px;
+        font-family: BebasNeueBold;
+        padding-top: 30px;
         padding-bottom: 23px;
-	}
-	p{
-		color: #fff;
-		font-size: 20px;
+    }
+    p {
+        color: #fff;
+        font-size: 20px;
         font-family: ARIALN;
         text-align: justify;
         padding-bottom: 30px;
-	}
+    }
 }
-.section-11-review{
+
+.section-11-review {
     width: 100%;
     background-color: #f6f6f6;
-    h3{
-        text-align: center;
-        padding-top: 140px;
-        padding-bottom: 20px;
-        font-family: BebasNeueBold;
-        text-decoration-line: underline;
+    .max-w-865 {
+        margin: 0 auto;
+        h3 {
+            text-align: center;
+            font-size: 56px;
+            padding-top: 140px;
+            padding-bottom: 20px;
+            font-family: BebasNeueBold;
+            text-decoration-line: underline;
+        }
     }
-    .max-w-630{
+    .max-w-630 {
         max-width: 630px;
         margin: 0 auto;
-        p{
-        font-size: 20px;
-        font-family: ARIALN;
-        padding-bottom: 25px;
+        p {
+            font-size: 20px;
+            font-family: ARIALN;
+            padding-bottom: 25px;
+        }
+    }
+    .max-w-960 {
+        .one-review-item {
+            padding-bottom: 30px;
+        }
+        .flex-one {
+            display: flex;
+            justify-content: space-between;
+            span {
+                font-family: ARIALN;
+                font-size: 16px;
+                color: #8e8e8e;
+                padding-bottom: 18px;
+            }
+            .span-three {
+                display: block;
+                position: relative;
+                left: -13px;
+            }
+        }
+        .flex-two {
+            display: flex;
+            justify-content: space-between;
+            .lolal {
+                width: 100%;
+                padding-right: 20px;
+                .number-1 {
+                    font-family: BebasNeueBold;
+                    font-size: 36px;
+                    padding-bottom: 5px;
+                    border-bottom: solid 2px #000;
+                    margin-bottom: 20px;
+                }
+            }
+            .circle {
+                position: relative;
+                top: 29px;
+                width: 60px;
+                height: 60px;
+                border: solid 3px #ff455d;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                p {
+                    font-family: ARIALN;
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+
+.all-reviews {
+    .flex-three {
+        display: flex;
+        .side {
+            width: 170px;
+            &.side-left {
+                flex-shrink: 0;
+            }
+            &.side-right {
+                flex-shrink: 0;
+            }
+            &.side-mid {
+                width: 100%;
+            }
+        }
+        .number-2 {
+            font-family: BebasNeueBold;
+            line-height: 32px;
+            font-size: 36px;
+            color: #000;
+            text-align: left;
+        }
+        p {
+            font-size: 20px;
+            color: #000;
+            text-align: center;
+            font-family: ARIALN;
+            padding: 0px 10px;
         }
     }
 }
