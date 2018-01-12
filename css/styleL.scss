@@ -15,5 +15,68 @@
     src: url(../fonts/BebasNeueRegular.otf);
 }
 
-
-
+.max-w-960{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.max-w-865{
+    max-width: 864px;
+    margin: 0 auto;
+}
+.section-10-getting{
+	width:100%;
+	background-image: url(../img/my1.png);
+    background-size: cover;
+    background-position:top -400px center;
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        background: #3b3b3b;
+        opacity: 0.93; 
+    }
+    .max-w-960{
+        position: relative;
+        z-index: 5;
+    }
+	h3{
+		color: #fff;
+		font-size: 36px;
+		font-family: BebasNeueBold;
+		padding-top: 30px;
+        padding-bottom: 23px;
+	}
+	p{
+		color: #fff;
+		font-size: 20px;
+        font-family: ARIALN;
+        text-align: justify;
+        padding-bottom: 30px;
+	}
+}
+.section-11-review{
+    width: 100%;
+    background-color: #f6f6f6;
+    h3{
+        text-align: center;
+        padding-top: 140px;
+        padding-bottom: 20px;
+        font-family: BebasNeueBold;
+        text-decoration-line: underline;
+    }
+    .max-w-630{
+        max-width: 630px;
+        margin: 0 auto;
+        p{
+        font-size: 20px;
+        font-family: ARIALN;
+        padding-bottom: 25px;
+        }
+    }
+}
