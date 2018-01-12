@@ -14,3 +14,22 @@
     font-family: BebasNeueRegular;
     src: url(../fonts/BebasNeueRegular.otf);
 }
+.max-w-960{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.section-10-getting{
+	width:100%;
+	background-image: url(../img/my-1.png)
+	h3{
+		color: #fff;
+		font-size: 36px;
+		font-family: BebasNeueBold;
+		padding-top: 30px;
+	}
+	p{
+		color: #fff;
+		font-size: 20px;
+	}
+}

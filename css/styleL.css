@@ -10,5 +10,19 @@
 @font-face {
   font-family: BebasNeueRegular;
   src: url(../fonts/BebasNeueRegular.otf); }
+.max-w-960 {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.section-10-getting {
+  width: 100%;
+  background-image: url(../img/my-1.png) h3;
+    background-image-color: #fff;
+    background-image-font-size: 36px;
+    background-image-font-family: BebasNeueBold;
+    background-image-padding-top: 30px; }
+  .section-10-getting p {
+    color: #fff;
+    font-size: 20px; }
 
 /*# sourceMappingURL=styleL.css.map */
