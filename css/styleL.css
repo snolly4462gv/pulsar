@@ -59,7 +59,8 @@
     padding-top: 140px;
     padding-bottom: 20px;
     font-family: BebasNeueBold;
-    text-decoration-line: underline; }
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline; }
   .section-11-review .max-w-630 {
     max-width: 630px;
     margin: 0 auto; }
