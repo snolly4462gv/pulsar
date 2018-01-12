@@ -1,8 +1,14 @@
-@charset "UTF-8";
 @font-face {
-  font-family: HelveticaRegular;
-  src: url(../fonts/HelveticaRegular.eot);
-  src: local("☺"), url("../fonts/HelveticaRegular.woff") format("woff"), url("../fonts/HelveticaRegular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
+  font-family: ARIALN;
+  src: url(../fonts/ARIALN.TTF); }
+@font-face {
+  font-family: BebasNeueBold;
+  src: url(../fonts/BebasNeueBold.otf); }
+@font-face {
+  font-family: BebasNeueBook;
+  src: url(../fonts/BebasNeueBook.otf); }
+@font-face {
+  font-family: BebasNeueRegular;
+  src: url(../fonts/BebasNeueRegular.otf); }
+
 /*# sourceMappingURL=styleL.css.map */
