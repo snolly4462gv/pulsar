@@ -27,60 +27,7 @@ $(document).ready(function () {
 
 
 
-    var easy_pie_chart = {};
-    $('.circular-pie').each(function () {
-        var text_span = $(this).children('span');
-        $(this).easyPieChart($.extend(true, {}, easy_pie_chart, {
-            size: 250,
-            animate: 2000,
 
-            lineCap: 'square',
-            barColor: '#0eaf7b',
-            lineWidth: 20,
-            trackColor: '#f6f6f6',
-            scaleColor: false,
-            onStep: function (value) {
-                text_span.text('$' + (Math.ceil(value) * 600));
-
-            }
-        }));
-    });
-
-    var easy_pie_chart_2 = {};
-    $('.circular-pie_2').each(function () {
-        var text_span = $(this).children('span');
-        $(this).easyPieChart($.extend(true, {}, easy_pie_chart_2, {
-            size: 150,
-            animate: 2000,
-
-            lineCap: 'square',
-            barColor: '#0eaf7b',
-            lineWidth: 15,
-            trackColor: '#f6f6f6',
-            scaleColor: false,
-            onStep: function (value) {
-                text_span.text('$' + ((Math.ceil(value) * 600) + 200));
-            
-            }
-        }));
-    });
-    var easy_pie_chart_3 = {};
-    $('.circular-pie_3').each(function () {
-        var text_span = $(this).children('span');
-        $(this).easyPieChart($.extend(true, {}, easy_pie_chart_3, {
-            size: 150,
-            animate: 2000,
-            lineCap: 'square',
-            barColor: '#0eaf7b',
-            lineWidth: 15,
-            trackColor: '#f6f6f6',
-            scaleColor: false,
-            onStep: function (value) {
-                text_span.text('$' + ((Math.ceil(value) * 600) + 400));
-
-            }
-        }));
-    });
 
     $('.open-hidden-block').click(function () {
         if ($(this).hasClass('slided')) {
@@ -92,22 +39,111 @@ $(document).ready(function () {
         }
     });
 
-   if ($(window).scrollTop() >= $(".sec-lvl-2 .menu").offset().top) {
+    if ($(window).scrollTop() >= $(".sec-lvl-2 .menu").offset().top) {
         $(".sec-lvl-2 .about").css({
             "margin-top": 67
         });
         $(".sec-lvl-2 .menu").addClass("js-fixed");
 
     }
-    if ($(window).scrollTop() < $(".sec-lvl-1").height()){
+    if ($(window).scrollTop() < $(".sec-lvl-1").height()) {
         $(".sec-lvl-2 .about").css({
             "margin-top": "0"
         });
         $(".sec-lvl-2 .menu").removeClass("js-fixed");
     }
-    
+
+
+
+
+    var glabal_flag_for_counter = true;
+
+
+    var win = $(window);
+    var scrFunc = function () {
+        var t = win.scrollTop(),
+            e = win.height();
+        $("[data-anim], .list-should-apply,.sec-lvl-4 .for-flex-cont,.sec-lvl-5 .list-acceleration .one-item, .sec-lvl-6 .max-w-960,.sec-lvl-7 .timeline .one-time,.section-11-review .max-w-960 .one-review-item,.section-12-STARTUPS .flexfour .block-one,.for-main-counter,.section-14-team .flex-five").each(function (n, i) {
+            var r = $(i).offset().top,
+                s = t + .9 * e;
+            s > r ? $(i).attr("data-anim", "true") : $(i).attr("data-anim", "false");
+
+
+            if ($(".for-main-counter").attr('data-anim') == 'true' && glabal_flag_for_counter) {
+                glabal_flag_for_counter = false;
+                var easy_pie_chart = {};
+                $('.circular-pie').each(function () {
+                    var text_span = $(this).children('span');
+                    $(this).easyPieChart($.extend(true, {}, easy_pie_chart, {
+                        size: 250,
+                        animate: 2000,
+
+                        lineCap: 'square',
+                        barColor: '#0eaf7b',
+                        lineWidth: 20,
+                        trackColor: '#f6f6f6',
+                        scaleColor: false,
+                        onStep: function (value) {
+                            text_span.text('$' + (Math.ceil(value) * 600));
+
+                        }
+                    }));
+                });
+
+                var easy_pie_chart_2 = {};
+                $('.circular-pie_2').each(function () {
+                    var text_span = $(this).children('span');
+                    $(this).easyPieChart($.extend(true, {}, easy_pie_chart_2, {
+                        size: 150,
+                        animate: 2000,
+
+                        lineCap: 'square',
+                        barColor: '#0eaf7b',
+                        lineWidth: 15,
+                        trackColor: '#f6f6f6',
+                        scaleColor: false,
+                        onStep: function (value) {
+                            text_span.text('$' + ((Math.ceil(value) * 600) + 200));
+
+                        }
+                    }));
+                });
+                var easy_pie_chart_3 = {};
+                $('.circular-pie_3').each(function () {
+                    var text_span = $(this).children('span');
+                    $(this).easyPieChart($.extend(true, {}, easy_pie_chart_3, {
+                        size: 150,
+                        animate: 2000,
+                        lineCap: 'square',
+                        barColor: '#0eaf7b',
+                        lineWidth: 15,
+                        trackColor: '#f6f6f6',
+                        scaleColor: false,
+                        onStep: function (value) {
+                            text_span.text('$' + ((Math.ceil(value) * 600) + 400));
+
+                        }
+                    }));
+                });
+
+            }
+
+
+
+        })
+    }
+    scrFunc();
+
+
+
+
+
+
+
+
 
     $(window).scroll(function () {
+        
         if ($(window).scrollTop() >= $(".sec-lvl-2 .menu").offset().top) {
             $(".sec-lvl-2 .about").css({
                 "margin-top": 67
@@ -115,23 +151,24 @@ $(document).ready(function () {
             $(".sec-lvl-2 .menu").addClass("js-fixed");
 
         }
-        if ($(window).scrollTop() < $(".sec-lvl-1").height()){
+        if ($(window).scrollTop() < $(".sec-lvl-1").height()) {
             $(".sec-lvl-2 .about").css({
                 "margin-top": "0"
             });
             $(".sec-lvl-2 .menu").removeClass("js-fixed");
         }
+        scrFunc();
     });
 
     $('#menu-fixed li a').click(function (e) {
         e.preventDefault;
-        
-        if($(this).attr('href')){
+
+        if ($(this).attr('href')) {
             var el = $(this).attr('href');
             $('body, html').animate({
                 scrollTop: $(el).offset().top - 67
             }, 700);
-            
+
             return false;
         }
     });

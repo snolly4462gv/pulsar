@@ -181,6 +181,10 @@
     font-family: BebasNeueBold;
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline; }
+  .section-12-STARTUPS.last-sec-style .flexfour .block-one h4 {
+    color: #000; }
+  .section-12-STARTUPS.last-sec-style .flexfour .block-one .second-text p {
+    border-top: 2px solid #000; }
   .section-12-STARTUPS .flexfour .block-one h4 {
     color: #de3a48;
     text-align: center;

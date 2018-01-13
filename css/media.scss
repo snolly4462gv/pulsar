@@ -67,6 +67,11 @@
     footer .footer-wr .logo {
         margin-bottom: 28px;
     }
+    .sec-lvl-16 .for-m-w .port-wr .one-port .port .left-side {
+    width: 45%;
+    }
+    
+    
 }
 
 @media (max-width: 767px) {
@@ -268,10 +273,19 @@
         max-width: 100%;
     }
     
+    .sec-lvl-16 {
+    padding-top: 46px;
+}
+    .sec-lvl-16 .for-m-w h4{
+        font-size: 38px;
+    }
+    .sec-lvl-16 .for-m-w .port-wr .one-port{
+        width: 100%;
+    }
     
-    
-    
-    
+    .sec-lvl-16 .for-m-w .port-wr .one-port{
+        padding: 0;
+    }
     
     
     
