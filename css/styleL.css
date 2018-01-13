@@ -14,12 +14,17 @@
   max-width: 960px;
   margin: 0 auto; }
 
+.max-w-1050 {
+  max-width: 1050px;
+  margin: 0 auto; }
+
 .max-w-865 {
   max-width: 864px;
   margin: 0 auto; }
 
 .w-25 {
   width: 25%;
+  padding: 0 15px;
   padding-bottom: 80px; }
 
 .section-10-getting {
@@ -196,7 +201,9 @@
       border-top: 2px solid #de3a48;
       text-align: center;
       padding: 5px 5px 0px 5px;
-      padding-bottom: 50px; }
+      padding-bottom: 50px;
+      line-height: 1.5;
+      letter-spacing: 0.2px; }
   .section-12-STARTUPS .flexfour .block-one:last-child .second-text p {
     padding-bottom: 0px; }
 
@@ -226,7 +233,8 @@
     font-family: BebasNeueBold;
     padding-top: 30px;
     padding: 15px 0px 15px 0px;
-    text-align: center; }
+    text-align: center;
+    letter-spacing: 0.4px; }
 
 .section-14-team {
   width: 100%;
@@ -234,6 +242,8 @@
   background-size: cover;
   background-position: top -100px center;
   position: relative; }
+  .section-14-team.for-color:before {
+    background: #3b3b3b; }
   .section-14-team:before {
     content: "";
     position: absolute;
@@ -245,7 +255,7 @@
     z-index: 2;
     background: #f23545;
     opacity: 0.93; }
-  .section-14-team .max-w-960 {
+  .section-14-team .max-w-1050 {
     position: relative;
     z-index: 5; }
   .section-14-team h3 {
@@ -255,7 +265,8 @@
     padding-top: 30px;
     padding-bottom: 70px;
     text-transform: uppercase;
-    text-align: center; }
+    text-align: center;
+    letter-spacing: 0.4px; }
   .section-14-team .flex-five {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -267,71 +278,23 @@
     height: 120px;
     background-color: rgba(0, 0, 0, 0.27);
     border-radius: 50%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center; }
   .section-14-team h4 {
     color: #fff;
     font-size: 32px;
     font-family: BebasNeueBold;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 25px; }
+    padding-top: 25px;
+    letter-spacing: 0.2px; }
   .section-14-team p {
     font-size: 16px;
     font-family: ARIALN;
     color: #fff;
-    text-align: center; }
-
-.section-15-ADVISORS {
-  width: 100%;
-  background-image: url(../img/my1.png);
-  background-size: cover;
-  background-position: top -100px center;
-  position: relative; }
-  .section-15-ADVISORS:before {
-    content: "";
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    background: #3b3b3b;
-    opacity: 0.95; }
-  .section-15-ADVISORS .max-w-960 {
-    position: relative;
-    z-index: 5; }
-  .section-15-ADVISORS h3 {
-    color: #fff;
-    font-size: 56px;
-    font-family: BebasNeueBold;
-    padding-top: 30px;
-    padding-bottom: 70px;
-    text-transform: uppercase;
-    text-align: center; }
-  .section-15-ADVISORS .flex-five {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-  .section-15-ADVISORS .back-img {
-    width: 120px;
-    height: 120px;
-    background-color: rgba(0, 0, 0, 0.27);
-    border-radius: 50%;
-    margin: 0 auto; }
-  .section-15-ADVISORS h4 {
-    color: #fff;
-    font-size: 32px;
-    font-family: BebasNeueBold;
-    text-transform: uppercase;
     text-align: center;
-    padding-top: 25px; }
-  .section-15-ADVISORS p {
-    font-size: 16px;
-    font-family: ARIALN;
-    color: #fff;
-    text-align: center; }
+    line-height: 1.5;
+    letter-spacing: 0.1px; }
 
 /*# sourceMappingURL=styleL.css.map */
