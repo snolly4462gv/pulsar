@@ -64,8 +64,7 @@
       padding-top: 140px;
       padding-bottom: 20px;
       font-family: BebasNeueBold;
-      -webkit-text-decoration-line: underline;
-              text-decoration-line: underline; }
+      text-decoration-line: underline; }
   .section-11-review .max-w-630 {
     max-width: 630px;
     margin: 0 auto; }
@@ -77,12 +76,8 @@
   .section-11-review .max-w-960 .one-review-item {
     padding-bottom: 30px; }
   .section-11-review .max-w-960 .flex-one {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    justify-content: space-between; }
     .section-11-review .max-w-960 .flex-one span {
       font-family: ARIALN;
       font-size: 16px;
@@ -93,12 +88,8 @@
       position: relative;
       left: -13px; }
   .section-11-review .max-w-960 .flex-two {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    justify-content: space-between; }
     .section-11-review .max-w-960 .flex-two .lolal {
       width: 100%;
       padding-right: 10px; }
@@ -114,17 +105,10 @@
       height: 60px;
       border: solid 3px #ff455d;
       border-radius: 50%;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -ms-flex-negative: 0;
-          flex-shrink: 0; }
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0; }
       .section-11-review .max-w-960 .flex-two .circle p {
         font-size: 28px;
         font-family: BebasNeueBold;
@@ -132,17 +116,13 @@
         letter-spacing: 0.2px; }
 
 .all-reviews .flex-three {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   .all-reviews .flex-three .side {
     width: 170px; }
     .all-reviews .flex-three .side.side-left {
-      -ms-flex-negative: 0;
-          flex-shrink: 0; }
+      flex-shrink: 0; }
     .all-reviews .flex-three .side.side-right {
-      -ms-flex-negative: 0;
-          flex-shrink: 0; }
+      flex-shrink: 0; }
     .all-reviews .flex-three .side.side-mid {
       width: 100%; }
       .all-reviews .flex-three .side.side-mid p {
@@ -162,14 +142,61 @@
 
 .section-12-review {
   width: 100%;
-  background-color: #f6f6f6; }
+  background-color: #f6f6f6;
+  padding-bottom: 175px; }
   .section-12-review h3 {
     text-align: center;
     font-size: 56px;
     padding-top: 190px;
     padding-bottom: 75px;
     font-family: BebasNeueBold;
-    -webkit-text-decoration-line: underline;
-            text-decoration-line: underline; }
+    text-decoration-line: underline; }
+  .section-12-review .flexfour .block-one h4 {
+    color: #de3a48;
+    text-align: center;
+    font-family: BebasNeueBold;
+    font-size: 40px; }
+  .section-12-review .flexfour .block-one .second-text {
+    display: flex;
+    justify-content: center; }
+    .section-12-review .flexfour .block-one .second-text p {
+      font-size: 20px;
+      font-family: ARIALN;
+      color: #8e8e8e;
+      max-width: 545px;
+      border-top: 2px solid #de3a48;
+      text-align: center;
+      padding: 5px 5px 0px 5px;
+      padding-bottom: 50px; }
+  .section-12-review .flexfour .block-one:last-child .second-text p {
+    padding-bottom: 0px; }
+
+.section-13-getting {
+  width: 100%;
+  background-image: url(../img/my1.png);
+  background-size: cover;
+  background-position: top -400px center;
+  position: relative; }
+  .section-13-getting:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: #1d9a72;
+    opacity: 0.93; }
+  .section-13-getting .max-w-960 {
+    position: relative;
+    z-index: 5; }
+  .section-13-getting h3 {
+    color: #fff;
+    font-size: 56px;
+    font-family: BebasNeueBold;
+    padding-top: 30px;
+    padding: 15px 0px 15px 0px;
+    text-align: center; }
 
 /*# sourceMappingURL=styleL.css.map */
