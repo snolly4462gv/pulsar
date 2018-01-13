@@ -62,24 +62,20 @@
       padding-top: 140px;
       padding-bottom: 20px;
       font-family: BebasNeueBold;
-      -webkit-text-decoration-line: underline;
-              text-decoration-line: underline; }
+      text-decoration-line: underline; }
   .section-11-review .max-w-630 {
     max-width: 630px;
     margin: 0 auto; }
     .section-11-review .max-w-630 p {
       font-size: 20px;
       font-family: ARIALN;
+      text-align: center;
       padding-bottom: 25px; }
   .section-11-review .max-w-960 .one-review-item {
     padding-bottom: 30px; }
   .section-11-review .max-w-960 .flex-one {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    justify-content: space-between; }
     .section-11-review .max-w-960 .flex-one span {
       font-family: ARIALN;
       font-size: 16px;
@@ -90,17 +86,13 @@
       position: relative;
       left: -13px; }
   .section-11-review .max-w-960 .flex-two {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    justify-content: space-between; }
     .section-11-review .max-w-960 .flex-two .lolal {
       width: 100%;
-      padding-right: 20px; }
+      padding-right: 10px; }
       .section-11-review .max-w-960 .flex-two .lolal .number-1 {
-        font-family: BebasNeueBold;
+        font-family: BebasNeueRegular;
         font-size: 36px;
         padding-bottom: 5px;
         border-bottom: solid 2px #000;
@@ -112,37 +104,30 @@
       height: 60px;
       border: solid 3px #ff455d;
       border-radius: 50%;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -ms-flex-negative: 0;
-          flex-shrink: 0; }
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0; }
       .section-11-review .max-w-960 .flex-two .circle p {
-        font-family: ARIALN;
-        font-size: 28px; }
+        font-size: 28px;
+        font-family: BebasNeueBold;
+        line-height: 1.07;
+        letter-spacing: 0.2px; }
 
 .all-reviews .flex-three {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   .all-reviews .flex-three .side {
     width: 170px; }
     .all-reviews .flex-three .side.side-left {
-      -ms-flex-negative: 0;
-          flex-shrink: 0; }
+      flex-shrink: 0; }
     .all-reviews .flex-three .side.side-right {
-      -ms-flex-negative: 0;
-          flex-shrink: 0; }
+      flex-shrink: 0; }
     .all-reviews .flex-three .side.side-mid {
       width: 100%; }
+      .all-reviews .flex-three .side.side-mid p {
+        line-height: 1.5; }
   .all-reviews .flex-three .number-2 {
-    font-family: BebasNeueBold;
+    font-family: BebasNeueRegular;
     line-height: 32px;
     font-size: 36px;
     color: #000;
@@ -152,6 +137,17 @@
     color: #000;
     text-align: center;
     font-family: ARIALN;
-    padding: 0px 10px; }
+    padding: 0px 10px 0px 0px; }
+
+.section-12-review {
+  width: 100%;
+  background-color: #f6f6f6; }
+  .section-12-review h3 {
+    text-align: center;
+    font-size: 56px;
+    padding-top: 190px;
+    padding-bottom: 75px;
+    font-family: BebasNeueBold;
+    text-decoration-line: underline; }
 
 /*# sourceMappingURL=styleL.css.map */
