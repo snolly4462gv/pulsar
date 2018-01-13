@@ -2,17 +2,14 @@
     font-family: ARIALN;
     src: url(../fonts/ARIALN.TTF);
 }
-
 @font-face {
     font-family: BebasNeueBold;
     src: url(../fonts/BebasNeueBold.otf);
 }
-
 @font-face {
     font-family: BebasNeueBook;
     src: url(../fonts/BebasNeueBook.otf);
 }
-
 @font-face {
     font-family: BebasNeueRegular;
     src: url(../fonts/BebasNeueRegular.otf);
@@ -22,7 +19,6 @@
     max-width: 960px;
     margin: 0 auto;
 }
-
 .max-w-865 {
     max-width: 864px;
     margin: 0 auto;
@@ -70,7 +66,6 @@
         letter-spacing: 0.2px;
     }
 }
-
 .section-11-review {
     width: 100%;
     background-color: #f6f6f6;
@@ -148,7 +143,6 @@
         }
     }
 }
-
 .all-reviews {
     .flex-three {
         display: flex;
@@ -261,6 +255,7 @@
     }
 }
 .section-14-team {
+    padding-bottom: 90px;
     width: 100%;
     background-image: url(../img/my1.png);
     background-size: cover;
