@@ -63,6 +63,8 @@
         font-family: ARIALN;
         text-align: justify;
         padding-bottom: 30px;
+        line-height: 1.5;
+        letter-spacing: 0.2px;
     }
 }
 
@@ -118,14 +120,13 @@
                 .number-1 {
                     font-family: BebasNeueRegular;
                     font-size: 36px;
-                    padding-bottom: 5px;
                     border-bottom: solid 2px #000;
-                    margin-bottom: 20px;
+                    margin-bottom: 11px;
                 }
             }
             .circle {
                 position: relative;
-                top: 29px;
+                top: 25px;
                 width: 60px;
                 height: 60px;
                 border: solid 3px #ff455d;
