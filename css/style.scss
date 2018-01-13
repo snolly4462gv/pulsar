@@ -17,8 +17,12 @@ a {
     max-width: 710px;
     margin: 0 auto;
 }
-.max-w-800 {
-    max-width: 800px;
+.max-w-815 {
+    max-width: 815px;
+    margin: 0 auto;
+}
+.max-w-920 {
+    max-width: 920px;
     margin: 0 auto;
 }
 .sec-lvl-1 {
@@ -301,6 +305,7 @@ a {
     }
     .list-should-apply{
         margin: 0;
+        margin-bottom: 22px;
         list-style: none;
         font-family: BebasNeueBook;
         font-size: 32px;
@@ -324,6 +329,85 @@ a {
                 background-repeat: no-repeat;
                 background-position: center;
             }
+        }
+    }
+}
+.sec-lvl-4{
+    background-image: url(../img/my1.png);
+    background-size: cover;
+    background-position: top -230px center;
+    position: relative;
+    padding: 40px 0;
+    &:before{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.93;
+        background-color: #f23545;
+    }
+    .for-flex-cont{
+        display: flex;
+        position: relative;
+        z-index: 10;
+        .left-side{
+            flex-shrink: 0;
+            width: 240px;
+            p{
+                text-align: right;
+                font-family: BebasNeueBook;
+                color: #fff;
+                font-size: 30px;
+                line-height: 36px;
+                letter-spacing: 0.4px;
+                span{
+                    font-family: BebasNeueBold;
+                }
+            }
+        }
+        .right-side{
+            padding-left: 32px;
+            width: 100%;
+            ul{
+                margin: 0;
+                list-style: none;
+                font-family: ARIALN;
+                font-size: 20px;
+                letter-spacing: 0.2px;
+                color: #fff;
+                li{
+                        padding-left: 29px;
+                    background-image: url(../img/checked-white.svg);
+                    background-repeat: no-repeat;
+                    background-position: top 11px left;
+                    background-size: 11px;
+                }
+                
+            }
+        }
+    }
+}
+
+.sec-lvl-5{
+    padding-top: 105px;
+    .for-b{
+        display: flex;
+        justify-content: center;
+        h4{
+             font-size: 56px;
+              letter-spacing: 0.4px;
+            border-bottom: 3px solid #000;
+            line-height: 48px;
+            margin-bottom: 50px;
+            font-family: BebasNeueBold;
+        }
+    }
+    .list-acceleration{
+        .one-item{
+            display: flex;
         }
     }
 }
