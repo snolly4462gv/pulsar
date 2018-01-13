@@ -1,3 +1,6 @@
+body {
+  background: #f6f6f6; }
+
 a {
   color: #000; }
   a:hover {
@@ -5,6 +8,14 @@ a {
 
 .max-w-675 {
   max-width: 675px;
+  margin: 0 auto; }
+
+.max-w-710 {
+  max-width: 710px;
+  margin: 0 auto; }
+
+.max-w-800 {
+  max-width: 800px;
   margin: 0 auto; }
 
 .sec-lvl-1 {
@@ -122,9 +133,12 @@ a {
             border-radius: 50%; }
 
 .sec-lvl-2 .menu {
+  background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  z-index: 5;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -179,6 +193,140 @@ a {
             color: #ff455d; }
 .sec-lvl-2 .about {
   padding-top: 60px;
-  background: #f6f6f6; }
+  padding-bottom: 50px;
+  background: #f6f6f6;
+  overflow: hidden; }
+  .sec-lvl-2 .about .sl-1 {
+    margin-bottom: 40px; }
+    .sec-lvl-2 .about .sl-1:before {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 5000px;
+      height: 3px;
+      background: #de3a48; }
+    .sec-lvl-2 .about .sl-1 .slide {
+      outline: none;
+      font-family: BebasNeueBold;
+      font-size: 38px;
+      letter-spacing: 0.3px;
+      color: #d1d1d1;
+      text-transform: uppercase;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      min-height: 84px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      line-height: 38px;
+      cursor: pointer; }
+      .sec-lvl-2 .about .sl-1 .slide.left-style {
+        text-align: right;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end; }
+      .sec-lvl-2 .about .sl-1 .slide.slick-current {
+        font-size: 56px;
+        line-height: 56px;
+        color: #de3a48; }
+  .sec-lvl-2 .about .sl-2 .slide {
+    outline: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 330px; }
+    .sec-lvl-2 .about .sl-2 .slide p {
+      font-size: 20px;
+      font-family: ARIALN;
+      line-height: 1.5;
+      letter-spacing: 0.2px;
+      margin-bottom: 15px; }
+      .sec-lvl-2 .about .sl-2 .slide p:last-child {
+        margin-bottom: 0; }
+  .sec-lvl-2 .about .sl-2 .slick-arrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    outline: none;
+    background-image: url(../img/arr-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+    border: none;
+    font-size: 0;
+    background-size: 22px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer; }
+    .sec-lvl-2 .about .sl-2 .slick-arrow.slick-disabled {
+      opacity: 0; }
+    .sec-lvl-2 .about .sl-2 .slick-arrow.slick-prev {
+      -webkit-transform-origin: center;
+              transform-origin: center;
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg);
+      left: -50px; }
+    .sec-lvl-2 .about .sl-2 .slick-arrow.slick-next {
+      right: -50px; }
+
+.sec-lvl-3 h4 {
+  text-align: center;
+  font-weight: normal;
+  font-family: BebasNeueBold;
+  font-size: 56px;
+  letter-spacing: 0.4px;
+  text-decoration: underline;
+  margin-bottom: 84px; }
+.sec-lvl-3 h6 {
+  text-align: center;
+  font-weight: normal;
+  font-family: BebasNeueBold;
+  color: #de3a48;
+  font-size: 32px;
+  letter-spacing: 0.4px;
+  margin-bottom: 50px; }
+.sec-lvl-3 .list-should-apply {
+  margin: 0;
+  list-style: none;
+  font-family: BebasNeueBook;
+  font-size: 32px;
+  letter-spacing: 0.4px; }
+  .sec-lvl-3 .list-should-apply li {
+    position: relative;
+    padding-left: 56px;
+    margin-bottom: 38px; }
+    .sec-lvl-3 .list-should-apply li:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 6px;
+      left: 0;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 2px solid #ff556b;
+      background-image: url(../img/checked.svg);
+      background-size: 19px;
+      background-repeat: no-repeat;
+      background-position: center; }
 
 /*# sourceMappingURL=style.css.map */
