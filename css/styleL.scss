@@ -2,17 +2,14 @@
     font-family: ARIALN;
     src: url(../fonts/ARIALN.TTF);
 }
-
 @font-face {
     font-family: BebasNeueBold;
     src: url(../fonts/BebasNeueBold.otf);
 }
-
 @font-face {
     font-family: BebasNeueBook;
     src: url(../fonts/BebasNeueBook.otf);
 }
-
 @font-face {
     font-family: BebasNeueRegular;
     src: url(../fonts/BebasNeueRegular.otf);
@@ -22,10 +19,12 @@
     max-width: 960px;
     margin: 0 auto;
 }
+
 .max-w-1050 {
     max-width: 1050px;
     margin: 0 auto;
 }
+
 
 .max-w-865 {
     max-width: 864px;
@@ -77,7 +76,6 @@
         letter-spacing: 0.2px;
     }
 }
-
 .section-11-review {
     width: 100%;
     background-color: #f6f6f6;
@@ -155,7 +153,6 @@
         }
     }
 }
-
 .all-reviews {
     .flex-three {
         display: flex;
@@ -272,6 +269,7 @@
 }
 
 .section-14-team {
+    padding-bottom: 90px;
     width: 100%;
     background-image: url(../img/my1.png);
     background-size: cover;
@@ -339,5 +337,119 @@
         letter-spacing: 0.1px;
     }
 }
-
-
+.section-15-timeline{
+    overflow: hidden;
+    .line{
+        h3{
+            padding-top: 190px;
+            font-size: 56px;
+            font-family: BebasNeueBold;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+                    &:first-child{
+            position: relative;
+            &:before{
+                content: "";
+                display: block;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 5000px;
+                height: 3px;
+                background: #000;
+            }
+            }
+        } 
+        h4{
+            font-size: 36px;
+            font-family: BebasNeueRegular;
+            letter-spacing: 0.4px;
+            line-height: 0.83;
+            letter-spacing: 0.3px;
+            color: #de3a48;
+            padding-top: 35px;
+        }
+        h5{
+            font-size: 26px;
+            font-family: BebasNeueRegular;
+            text-transform: uppercase;
+            line-height: 1.15;
+            letter-spacing: 0.2px;
+            padding-bottom: 10px;
+        }
+        p{
+            font-size: 16px;
+            font-family: ARIALN;
+            letter-spacing: 0.1px;
+            color: #8e8e8e;
+            line-height: 1.88;
+            padding-bottom: 20px;
+        }
+    }
+    .w-t-15{
+        max-width: 905px;
+        margin: 0 auto;
+        P{
+            font-size: 20px;
+            font-family: ARIALN;
+            line-height: 1.5;
+            letter-spacing: 0.2px;
+            text-align: justify;
+            color: #8e8e8e;
+            padding-bottom: 30px;
+        }
+    }
+    
+    .block-box{
+    	max-width: 1020px;
+    	display: flex;
+    	flex-wrap: wrap;
+    	padding-bottom: 230px;
+        &.desctop{
+            .side{
+                width: 50%;
+                
+            }
+            .for-padd-wrapp{
+                width: 100%;
+            }
+        }
+    	h6{
+    		color: #000;
+    		font-size: 30px;
+    		font-family: BebasNeueRegular;
+    		letter-spacing: 0.3px;
+    		padding-bottom: 15px;
+    		padding-left: 20px;
+    		line-height: 40px;
+    	}
+    	span{
+    		color: #ff455d;
+    		font-size: 16px;
+    		line-height: 1.88;
+			letter-spacing: 0.1px;
+			font-family: ARIALN;
+			padding-bottom: 5px;
+    		padding-left: 20px;
+    		cursor: pointer;
+    	}
+    	.shadow{
+  			border-radius: 4px;
+  			background-color: #fbfbfb;
+  			box-shadow: 0 2px 3px 0 
+  			rgba(0, 0, 0, 0.2), 0 2px 
+  			8px 0 rgba(0, 0, 0, 0.1);
+  			padding: 3px 0px;
+            .hidden-block-desc{
+                padding: 20px;
+                font-family: ARIALN;
+                font-size: 16px;
+                display: none;
+            }
+    	}
+    	.for-padd-wrapp{
+    		width: 50%;
+    		padding: 10px 10px 10px 10px;
+    	}
+    }
+}

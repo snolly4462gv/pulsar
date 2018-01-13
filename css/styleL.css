@@ -237,6 +237,7 @@
     letter-spacing: 0.4px; }
 
 .section-14-team {
+  padding-bottom: 90px;
   width: 100%;
   background-image: url(../img/my1.png);
   background-size: cover;
@@ -296,5 +297,101 @@
     text-align: center;
     line-height: 1.5;
     letter-spacing: 0.1px; }
+
+.section-15-timeline {
+  overflow: hidden; }
+  .section-15-timeline .line h3 {
+    padding-top: 190px;
+    font-size: 56px;
+    font-family: BebasNeueBold;
+    letter-spacing: 0.4px;
+    text-transform: uppercase; }
+    .section-15-timeline .line h3:first-child {
+      position: relative; }
+      .section-15-timeline .line h3:first-child:before {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 5000px;
+        height: 3px;
+        background: #000; }
+  .section-15-timeline .line h4 {
+    font-size: 36px;
+    font-family: BebasNeueRegular;
+    letter-spacing: 0.4px;
+    line-height: 0.83;
+    letter-spacing: 0.3px;
+    color: #de3a48;
+    padding-top: 35px; }
+  .section-15-timeline .line h5 {
+    font-size: 26px;
+    font-family: BebasNeueRegular;
+    text-transform: uppercase;
+    line-height: 1.15;
+    letter-spacing: 0.2px;
+    padding-bottom: 10px; }
+  .section-15-timeline .line p {
+    font-size: 16px;
+    font-family: ARIALN;
+    letter-spacing: 0.1px;
+    color: #8e8e8e;
+    line-height: 1.88;
+    padding-bottom: 20px; }
+  .section-15-timeline .w-t-15 {
+    max-width: 905px;
+    margin: 0 auto; }
+    .section-15-timeline .w-t-15 P {
+      font-size: 20px;
+      font-family: ARIALN;
+      line-height: 1.5;
+      letter-spacing: 0.2px;
+      text-align: justify;
+      color: #8e8e8e;
+      padding-bottom: 30px; }
+  .section-15-timeline .block-box {
+    max-width: 1020px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 230px; }
+    .section-15-timeline .block-box.desctop .side {
+      width: 50%; }
+    .section-15-timeline .block-box.desctop .for-padd-wrapp {
+      width: 100%; }
+    .section-15-timeline .block-box h6 {
+      color: #000;
+      font-size: 30px;
+      font-family: BebasNeueRegular;
+      letter-spacing: 0.3px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      line-height: 40px; }
+    .section-15-timeline .block-box span {
+      color: #ff455d;
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.1px;
+      font-family: ARIALN;
+      padding-bottom: 5px;
+      padding-left: 20px;
+      cursor: pointer; }
+    .section-15-timeline .block-box .shadow {
+      border-radius: 4px;
+      background-color: #fbfbfb;
+      -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+              box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+      padding: 3px 0px; }
+      .section-15-timeline .block-box .shadow .hidden-block-desc {
+        padding: 20px;
+        font-family: ARIALN;
+        font-size: 16px;
+        display: none; }
+    .section-15-timeline .block-box .for-padd-wrapp {
+      width: 50%;
+      padding: 10px 10px 10px 10px; }
 
 /*# sourceMappingURL=styleL.css.map */
