@@ -25,19 +25,18 @@ a {
         height: 100%;
         background: rgba(0,0,0,0.5);
     }
-    .video-foreground {
-        min-width: 100%;
-        position: relative;
+    
+    #video-background {
+      position: absolute;
+      right: 0; 
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      width: auto; 
+      height: auto;
+      z-index: 2;
     }
-    iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-        z-index: 2;
-    }
+    
     .for-abs-logo{
         position: absolute;
         top: 0;
@@ -127,27 +126,16 @@ a {
     }
 }
 
-@media (min-aspect-ratio: 16/9) {
-    .video-foreground {
-        height: 300%;
-        top: -100%;
-    }
-}
 
-@media (max-aspect-ratio: 16/9) {
-    .video-foreground {
-        width: 300%;
-        left: -100%;
-    }
-}
 
 .sec-lvl-2 {
-    box-shadow: 0 1.5px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.05);
+    
     .menu {
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 17px 0;
+        box-shadow: 0 1.5px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.05);
         .side {
             width: 100%;
             &.left-side {
@@ -192,5 +180,9 @@ a {
             }
         }
     }
-    .about {}
+    .about {
+        padding-top: 60px;
+        
+        
+    }
 }
