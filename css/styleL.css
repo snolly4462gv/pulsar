@@ -64,7 +64,8 @@
       padding-top: 140px;
       padding-bottom: 20px;
       font-family: BebasNeueBold;
-      text-decoration-line: underline; }
+      -webkit-text-decoration-line: underline;
+              text-decoration-line: underline; }
   .section-11-review .max-w-630 {
     max-width: 630px;
     margin: 0 auto; }
@@ -76,8 +77,12 @@
   .section-11-review .max-w-960 .one-review-item {
     padding-bottom: 30px; }
   .section-11-review .max-w-960 .flex-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     .section-11-review .max-w-960 .flex-one span {
       font-family: ARIALN;
       font-size: 16px;
@@ -88,8 +93,12 @@
       position: relative;
       left: -13px; }
   .section-11-review .max-w-960 .flex-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     .section-11-review .max-w-960 .flex-two .lolal {
       width: 100%;
       padding-right: 10px; }
@@ -105,10 +114,17 @@
       height: 60px;
       border: solid 3px #ff455d;
       border-radius: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-shrink: 0; }
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
       .section-11-review .max-w-960 .flex-two .circle p {
         font-size: 28px;
         font-family: BebasNeueBold;
@@ -116,13 +132,17 @@
         letter-spacing: 0.2px; }
 
 .all-reviews .flex-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
   .all-reviews .flex-three .side {
     width: 170px; }
     .all-reviews .flex-three .side.side-left {
-      flex-shrink: 0; }
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
     .all-reviews .flex-three .side.side-right {
-      flex-shrink: 0; }
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
     .all-reviews .flex-three .side.side-mid {
       width: 100%; }
       .all-reviews .flex-three .side.side-mid p {
@@ -150,15 +170,20 @@
     padding-top: 190px;
     padding-bottom: 75px;
     font-family: BebasNeueBold;
-    text-decoration-line: underline; }
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline; }
   .section-12-review .flexfour .block-one h4 {
     color: #de3a48;
     text-align: center;
     font-family: BebasNeueBold;
     font-size: 40px; }
   .section-12-review .flexfour .block-one .second-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     .section-12-review .flexfour .block-one .second-text p {
       font-size: 20px;
       font-family: ARIALN;
