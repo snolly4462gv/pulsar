@@ -181,8 +181,7 @@ a {
       padding-left: 45px; }
       .sec-lvl-2 .menu .side.left-side img {
         -ms-flex-negative: 0;
-            flex-shrink: 0;
-        opacity: 0.28; }
+            flex-shrink: 0; }
       .sec-lvl-2 .menu .side.left-side .name {
         padding-left: 10px;
         font-family: BebasNeueBold;
