@@ -66,7 +66,7 @@ $(document).ready(function () {
         $("[data-anim], .list-should-apply,.sec-lvl-4 .for-flex-cont,.sec-lvl-5 .list-acceleration .one-item, .sec-lvl-6 .max-w-960,.sec-lvl-7 .timeline .one-time,.section-11-review .max-w-960 .one-review-item,.section-12-STARTUPS .flexfour .block-one,.for-main-counter,.section-14-team .flex-five").each(function (n, i) {
             var r = $(i).offset().top,
                 s = t + .9 * e;
-            s > r ? $(i).attr("data-anim", "true") : $(i).attr("data-anim", "false");
+            s > r ? $(i).attr("data-anim", "true") : true;
 
 
             if ($(".for-main-counter").attr('data-anim') == 'true' && glabal_flag_for_counter) {
