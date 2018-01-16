@@ -79,9 +79,9 @@ $(document).ready(function () {
                         animate: 2000,
 
                         lineCap: 'square',
-                        barColor: '#0eaf7b',
+                        barColor: '#ff832f',
                         lineWidth: 20,
-                        trackColor: '#f6f6f6',
+                        trackColor: '#dcdcdc',
                         scaleColor: false,
                         onStep: function (value) {
                             text_span.text('$' + (Math.ceil(value) * 600));
@@ -98,9 +98,9 @@ $(document).ready(function () {
                         animate: 2000,
 
                         lineCap: 'square',
-                        barColor: '#0eaf7b',
+                        barColor: '#ff832f',
                         lineWidth: 15,
-                        trackColor: '#f6f6f6',
+                        trackColor: '#dcdcdc',
                         scaleColor: false,
                         onStep: function (value) {
                             text_span.text('$' + ((Math.ceil(value) * 600) + 200));
@@ -115,9 +115,9 @@ $(document).ready(function () {
                         size: 150,
                         animate: 2000,
                         lineCap: 'square',
-                        barColor: '#0eaf7b',
+                        barColor: '#ff832f',
                         lineWidth: 15,
-                        trackColor: '#f6f6f6',
+                        trackColor: '#dcdcdc',
                         scaleColor: false,
                         onStep: function (value) {
                             text_span.text('$' + ((Math.ceil(value) * 600) + 400));

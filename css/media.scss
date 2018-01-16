@@ -24,11 +24,16 @@
         &.right-side {
             display: none;
         }
+
     }
     .sec-lvl-2 .menu .side.mid-side {
         padding-right: 15px;
     }
+    .sec-lvl-7 .timeline .one-time .text-lvl-1{
+        font-size: 16px;
+    }
 }
+
 
 @media (max-width: 991px) {
     .sec-lvl-2 .menu .side.mid-side {
@@ -71,6 +76,64 @@
     width: 45%;
     }
     
+    .sec-lvl-7 .timeline{
+        display: block;
+
+    }
+    .sec-lvl-7 .timeline .one-time .flex-bg{
+        position: relative;
+        left: 0;
+        transform: none;
+    }
+    .sec-lvl-7 .timeline .one-time {
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+.sec-lvl-7 .timeline .one-time .flex-bg .bg:before{
+    display: none;
+}
+
+.sec-lvl-7{
+    padding:30px 0;
+
+}
+.sec-lvl-7 .year{
+    position:relative;
+    right: auto;
+    bottom:auto;
+    text-align: center;
+    margin-bottom:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 }
 
@@ -286,14 +349,30 @@
     .sec-lvl-16 .for-m-w .port-wr .one-port{
         padding: 0;
     }
+    .section-12-STARTUPS .flexfour{
+        display: block;
+
+    }
+    .section-12-STARTUPS .flexfour .block-one{
+        width: 100%;
+    }
     
+    .sec-lvl-7 .timeline .one-time{
+        display: block;
+    }
+    .sec-lvl-7 .timeline .one-time:before{
+        display: none;
+    }
+    .sec-lvl-7 .timeline:before{
+        display: none;
+    }
+    .sec-lvl-7 .timeline:after{
+        display: none;
+    }
     
-    
-    
-    
-    
-    
-    
+    .sec-lvl-7 .timeline .one-time .flex-bg .bg{
+        margin: 10px 0;
+    }
     
     
     
