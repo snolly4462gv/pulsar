@@ -173,7 +173,20 @@ $(document).ready(function () {
         }
     });
 
-
+    var flag_change = true;
+    
+    
+    $('.flag-vr').click(function(){
+        if(flag_change){
+            $(".dropdown-wrch").slideDown(0);
+            flag_change = false;
+        }
+        else{
+            $(".dropdown-wrch").slideUp(0);
+            flag_change = true;
+        }
+        
+    });
 
 
 

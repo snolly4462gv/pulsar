@@ -1164,3 +1164,59 @@ section {
         }
     }
 }
+.for-flag{
+    width: 50px;
+    position: relative;
+    color: #fff;
+        font-family: BebasNeueRegular;
+    letter-spacing: 1px;
+    .dropdown-wrch{
+        display: none;
+        
+    }
+    .flag-vr{
+        padding-left: 22px;
+        padding-right: 15px;
+        text-transform: uppercase;
+        cursor: pointer;
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 18px;
+            height: 12px;
+            background: url(../img/en.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+        &:after{
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 9px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 5px 5px 0 5px;
+            border-color: #fff transparent transparent transparent;
+        }
+    }
+    .pick-lang{
+        position: absolute;
+        left: 0;
+        border: 1px solid #ffffff;
+        
+        z-index: 20;
+        top: 100%;
+        a {
+            color: #fff;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+            display: block;
+            padding: 2px 16px;
+            font-size: 16px;
+        }
+    }
+}
