@@ -91,7 +91,11 @@
     right: auto;
     bottom: auto;
     text-align: center;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  .for-flag {
+    top: -16px;
+    margin-bottom: 25px; } }
 @media (max-width: 767px) {
   .sec-lvl-4 .for-flex-cont {
     display: block; }
