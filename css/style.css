@@ -37,7 +37,8 @@ a {
 .sec-lvl-1 {
   position: relative;
   height: 100vh;
-  overflow: hidden; }
+  overflow: hidden;
+  background: #000; }
   .sec-lvl-1:before {
     content: "";
     display: block;
