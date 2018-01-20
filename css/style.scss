@@ -47,7 +47,10 @@ a {
     position: relative;
     height: 100vh;
     overflow: hidden;
-    background: #000;
+    background-color: #000;
+    background-image: url(../img/bg-movie.png);
+    background-size: cover;
+    background-position: center;
     &:before {
         content: "";
         display: block;
