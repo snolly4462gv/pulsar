@@ -310,6 +310,14 @@
     display: none; }
 
   .sec-lvl-7 .timeline .one-time .flex-bg .bg {
-    margin: 10px 0; } }
+    margin: 10px 0; }
+
+  .modal-dialog {
+    width: 280px;
+    margin: 30px auto; }
+
+  .modal-body {
+    padding-left: 10px;
+    padding-right: 10px; } }
 
 /*# sourceMappingURL=media.css.map */
