@@ -76,8 +76,7 @@
       padding-top: 140px;
       padding-bottom: 20px;
       font-family: BebasNeueBold;
-      -webkit-text-decoration-line: underline;
-              text-decoration-line: underline; }
+      text-decoration-line: underline; }
   .section-11-review .max-w-630 {
     max-width: 630px;
     margin: 0 auto; }
@@ -89,12 +88,8 @@
   .section-11-review .max-w-960 .one-review-item {
     padding-bottom: 30px; }
   .section-11-review .max-w-960 .flex-one {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    justify-content: space-between; }
     .section-11-review .max-w-960 .flex-one span {
       font-family: ARIALN;
       font-size: 16px;
@@ -105,12 +100,8 @@
       position: relative;
       left: -13px; }
   .section-11-review .max-w-960 .flex-two {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    justify-content: space-between; }
     .section-11-review .max-w-960 .flex-two .lolal {
       width: 100%;
       padding-right: 10px; }
@@ -126,17 +117,10 @@
       height: 60px;
       border: solid 3px #ff455d;
       border-radius: 50%;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -ms-flex-negative: 0;
-          flex-shrink: 0; }
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0; }
       .section-11-review .max-w-960 .flex-two .circle p {
         font-size: 28px;
         font-family: BebasNeueBold;
@@ -144,17 +128,13 @@
         letter-spacing: 0.2px; }
 
 .all-reviews .flex-three {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   .all-reviews .flex-three .side {
     width: 170px; }
     .all-reviews .flex-three .side.side-left {
-      -ms-flex-negative: 0;
-          flex-shrink: 0; }
+      flex-shrink: 0; }
     .all-reviews .flex-three .side.side-right {
-      -ms-flex-negative: 0;
-          flex-shrink: 0; }
+      flex-shrink: 0; }
     .all-reviews .flex-three .side.side-mid {
       width: 100%; }
       .all-reviews .flex-three .side.side-mid p {
@@ -182,18 +162,14 @@
     padding-top: 190px;
     padding-bottom: 75px;
     font-family: BebasNeueBold;
-    -webkit-text-decoration-line: underline;
-            text-decoration-line: underline; }
+    text-decoration-line: underline; }
   .section-12-STARTUPS.last-sec-style .flexfour .block-one h4 {
     color: #000; }
   .section-12-STARTUPS.last-sec-style .flexfour .block-one .second-text p {
     border-top: 2px solid #000; }
   .section-12-STARTUPS .flexfour {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    flex-wrap: wrap; }
     .section-12-STARTUPS .flexfour .block-one {
       padding: 10px;
       width: 50%; }
@@ -276,11 +252,8 @@
     text-align: center;
     letter-spacing: 0.4px; }
   .section-14-team .flex-five {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    flex-wrap: wrap; }
   .section-14-team .back-img {
     width: 120px;
     height: 120px;
@@ -359,11 +332,8 @@
       padding-bottom: 30px; }
   .section-15-timeline .block-box {
     max-width: 1020px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     padding-bottom: 230px; }
     .section-15-timeline .block-box.desctop .side {
       width: 50%; }
@@ -389,8 +359,7 @@
     .section-15-timeline .block-box .shadow {
       border-radius: 4px;
       background-color: #fbfbfb;
-      -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.1);
-              box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.1);
       padding: 3px 0px; }
       .section-15-timeline .block-box .shadow .hidden-block-desc {
         padding: 20px;
