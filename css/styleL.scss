@@ -38,7 +38,7 @@
 .w-25 {
     width: 33.3%;
     padding: 0 15px;
-    padding-bottom: 80px;
+    padding-bottom: 10px;
 }
 
 .section-10-getting {
@@ -289,7 +289,7 @@
 }
 
 .section-14-team {
-    padding-bottom: 90px;
+    padding-bottom: 30px;
     width: 100%;
     background-image: url(../img/my1.png);
     background-size: cover;
@@ -321,7 +321,7 @@
         font-size: 56px;
         font-family: BebasNeueBold;
         padding-top: 30px;
-        padding-bottom: 70px;
+        padding-bottom: 15px;
         text-transform: uppercase;
         text-align: center;
         letter-spacing: 0.4px;
@@ -329,6 +329,7 @@
     .flex-five {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .back-img {
         width: 120px;

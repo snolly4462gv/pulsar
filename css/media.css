@@ -68,12 +68,16 @@
   .sec-lvl-7 .timeline .one-time .flex-bg {
     position: relative;
     left: 0;
-    transform: none; }
+    -webkit-transform: none;
+            transform: none; }
 
   .sec-lvl-7 .timeline .one-time {
     width: 100%;
-    flex-wrap: wrap;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 30px; }
 
   .sec-lvl-7 .timeline .one-time .flex-bg .bg:before {
