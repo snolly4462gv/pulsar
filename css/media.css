@@ -322,6 +322,11 @@
 
   .modal-body {
     padding-left: 10px;
-    padding-right: 10px; } }
+    padding-right: 10px; }
+
+  .parteners .flex-partners .one-partner {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=media.css.map */
