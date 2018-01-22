@@ -28,7 +28,7 @@
 .w-25 {
   width: 33.3%;
   padding: 0 15px;
-  padding-bottom: 80px; }
+  padding-bottom: 10px; }
 
 .section-10-getting {
   width: 100%;
@@ -76,7 +76,8 @@
       padding-top: 140px;
       padding-bottom: 20px;
       font-family: BebasNeueBold;
-      text-decoration-line: underline; }
+      -webkit-text-decoration-line: underline;
+              text-decoration-line: underline; }
   .section-11-review .max-w-630 {
     max-width: 630px;
     margin: 0 auto; }
@@ -88,8 +89,12 @@
   .section-11-review .max-w-960 .one-review-item {
     padding-bottom: 30px; }
   .section-11-review .max-w-960 .flex-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     .section-11-review .max-w-960 .flex-one span {
       font-family: ARIALN;
       font-size: 16px;
@@ -100,8 +105,12 @@
       position: relative;
       left: -13px; }
   .section-11-review .max-w-960 .flex-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     .section-11-review .max-w-960 .flex-two .lolal {
       width: 100%;
       padding-right: 10px; }
@@ -117,10 +126,17 @@
       height: 60px;
       border: solid 3px #ff455d;
       border-radius: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-shrink: 0; }
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
       .section-11-review .max-w-960 .flex-two .circle p {
         font-size: 28px;
         font-family: BebasNeueBold;
@@ -128,13 +144,17 @@
         letter-spacing: 0.2px; }
 
 .all-reviews .flex-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
   .all-reviews .flex-three .side {
     width: 170px; }
     .all-reviews .flex-three .side.side-left {
-      flex-shrink: 0; }
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
     .all-reviews .flex-three .side.side-right {
-      flex-shrink: 0; }
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
     .all-reviews .flex-three .side.side-mid {
       width: 100%; }
       .all-reviews .flex-three .side.side-mid p {
@@ -162,14 +182,18 @@
     padding-top: 190px;
     padding-bottom: 75px;
     font-family: BebasNeueBold;
-    text-decoration-line: underline; }
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline; }
   .section-12-STARTUPS.last-sec-style .flexfour .block-one h4 {
     color: #000; }
   .section-12-STARTUPS.last-sec-style .flexfour .block-one .second-text p {
     border-top: 2px solid #000; }
   .section-12-STARTUPS .flexfour {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
     .section-12-STARTUPS .flexfour .block-one {
       padding: 10px;
       width: 50%; }
@@ -220,7 +244,7 @@
     letter-spacing: 0.4px; }
 
 .section-14-team {
-  padding-bottom: 90px;
+  padding-bottom: 30px;
   width: 100%;
   background-image: url(../img/my1.png);
   background-size: cover;
@@ -247,13 +271,19 @@
     font-size: 56px;
     font-family: BebasNeueBold;
     padding-top: 30px;
-    padding-bottom: 70px;
+    padding-bottom: 15px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.4px; }
   .section-14-team .flex-five {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   .section-14-team .back-img {
     width: 120px;
     height: 120px;
@@ -332,8 +362,11 @@
       padding-bottom: 30px; }
   .section-15-timeline .block-box {
     max-width: 1020px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     padding-bottom: 230px; }
     .section-15-timeline .block-box.desctop .side {
       width: 50%; }
@@ -359,7 +392,8 @@
     .section-15-timeline .block-box .shadow {
       border-radius: 4px;
       background-color: #fbfbfb;
-      box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+              box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.1);
       padding: 3px 0px; }
       .section-15-timeline .block-box .shadow .hidden-block-desc {
         padding: 20px;
