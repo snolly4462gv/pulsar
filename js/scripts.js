@@ -75,7 +75,7 @@ $(document).ready(function () {
                 $('.circular-pie').each(function () {
                     var text_span = $(this).children('span');
                     $(this).easyPieChart($.extend(true, {}, easy_pie_chart, {
-                        size: 250,
+                        size: 350,
                         animate: 2000,
 
                         lineCap: 'square',
@@ -84,7 +84,7 @@ $(document).ready(function () {
                         trackColor: '#dcdcdc',
                         scaleColor: false,
                         onStep: function (value) {
-                            text_span.text('$' + (Math.ceil(value) * 600));
+                            text_span.text((Math.ceil(value) * 100000) + ' Руб');
 
                         }
                     }));
@@ -94,7 +94,7 @@ $(document).ready(function () {
                 $('.circular-pie_2').each(function () {
                     var text_span = $(this).children('span');
                     $(this).easyPieChart($.extend(true, {}, easy_pie_chart_2, {
-                        size: 150,
+                        size: 200,
                         animate: 2000,
 
                         lineCap: 'square',
@@ -103,7 +103,7 @@ $(document).ready(function () {
                         trackColor: '#dcdcdc',
                         scaleColor: false,
                         onStep: function (value) {
-                            text_span.text('$' + ((Math.ceil(value) * 600) + 200));
+                            text_span.text(((Math.ceil(value) * 100000)) + ' Руб');
 
                         }
                     }));
@@ -112,7 +112,7 @@ $(document).ready(function () {
                 $('.circular-pie_3').each(function () {
                     var text_span = $(this).children('span');
                     $(this).easyPieChart($.extend(true, {}, easy_pie_chart_3, {
-                        size: 150,
+                        size: 200,
                         animate: 2000,
                         lineCap: 'square',
                         barColor: '#ff832f',
@@ -120,7 +120,7 @@ $(document).ready(function () {
                         trackColor: '#dcdcdc',
                         scaleColor: false,
                         onStep: function (value) {
-                            text_span.text('$' + ((Math.ceil(value) * 600) + 400));
+                            text_span.text(((Math.ceil(value) * 100000)+100000) + ' Руб');
 
                         }
                     }));
