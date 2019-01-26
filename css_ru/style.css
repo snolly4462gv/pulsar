@@ -34,6 +34,15 @@ a {
   max-width: 1075px;
   margin: 0 auto; }
 
+@keyframes slideInFromLeft {
+  0% {
+    background-position:left;
+  }
+  100% {
+    background-position:right;
+  }
+}
+
 .sec-lvl-1 {
   position: relative;
   height: 100vh;
@@ -41,7 +50,10 @@ a {
   background-color: #000;
   background-image: url(../img/bg.png);
   background-size: cover;
-  background-position: center; }
+  background-position: center; 
+animation: 8s ease-out 0s 1 slideInFromLeft;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;}
   .sec-lvl-1:before {
     content: "";
     display: block;
@@ -51,7 +63,8 @@ a {
     z-index: 3;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); }
+/*    background: rgba(0, 0, 0, 0.5); */
+}
   .sec-lvl-1 #video-background {
     position: absolute;
     right: 0;
