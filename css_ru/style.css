@@ -39,7 +39,7 @@ a {
   height: 100vh;
   overflow: hidden;
   background-color: #000;
-  background-image: url(../img/bg-movie.png);
+  background-image: url(../img/bg.png);
   background-size: cover;
   background-position: center; }
   .sec-lvl-1:before {
@@ -212,9 +212,9 @@ a {
           -webkit-transition: 0.3s;
           transition: 0.3s; }
           .sec-lvl-2 .menu .side.mid-side ul li a.active {
-            color: #ff455d; }
+            color: #FF7255; }
           .sec-lvl-2 .menu .side.mid-side ul li a:hover {
-            color: #ff455d; }
+            color: #FF7255; }
 .sec-lvl-2 .about {
   padding-top: 60px;
   padding-bottom: 50px;
@@ -230,7 +230,7 @@ a {
       left: 0;
       width: 5000px;
       height: 3px;
-      background: #de3a48; }
+      background: #FF7200 ; }
     .sec-lvl-2 .about .sl-1 .slide {
       outline: none;
       font-family: BebasNeueBold;
@@ -257,7 +257,7 @@ a {
       .sec-lvl-2 .about .sl-1 .slide.slick-current {
         font-size: 56px;
         line-height: 56px;
-        color: #de3a48; }
+        color: #FF7200 ; }
   .sec-lvl-2 .about .sl-2 .slide {
     outline: none;
     display: -webkit-box;
@@ -324,7 +324,7 @@ a {
   text-align: center;
   font-weight: normal;
   font-family: BebasNeueBold;
-  color: #de3a48;
+  color: #FF7200 ;
   font-size: 32px;
   letter-spacing: 0.4px;
   margin-bottom: 50px; }
@@ -348,7 +348,7 @@ a {
       width: 36px;
       height: 36px;
       border-radius: 50%;
-      border: 2px solid #ff556b;
+      border: 2px solid #FF7222 ;
       background-image: url(../img/checked.svg);
       background-size: 19px;
       background-repeat: no-repeat;
@@ -395,7 +395,7 @@ a {
           position: relative;
           left: 5px;
           padding-right: 5px;
-          background-color: #f3364a; }
+          background-color: #FF7211; }
           .sec-lvl-4 .for-flex-cont .left-side p .new-block-style:before {
             content: "";
             display: block;
@@ -403,7 +403,7 @@ a {
             top: 0;
             right: 100%;
             height: 100%;
-            background-color: #f3364a;
+            background-color: #FF7211;
             width: 5000px; }
     .sec-lvl-4 .for-flex-cont .right-side {
       padding-left: 32px;
@@ -452,7 +452,7 @@ a {
       height: 50px;
       -ms-flex-negative: 0;
           flex-shrink: 0;
-      background: #ff455d;
+      background: #FF7255;
       border-radius: 50%;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -548,7 +548,7 @@ a {
     font-family: BebasNeueRegular;
     font-size: 48px;
     letter-spacing: 0.4px;
-    color: #f3364a;
+    color: #FF7211;
     bottom: 100%; }
   .sec-lvl-7 .timeline {
     display: -webkit-box;
@@ -658,9 +658,9 @@ a {
               font-size: 20px;
               letter-spacing: 0.2px; }
       .sec-lvl-7 .timeline .one-time:last-child .flex-bg .bg {
-        background: #ff455d; }
+        background: #FF7255; }
         .sec-lvl-7 .timeline .one-time:last-child .flex-bg .bg:before {
-          border-color: transparent transparent #ff455d transparent; }
+          border-color: transparent transparent #FF7255 transparent; }
 
 .section-pre-14 {
   overflow: hidden;

@@ -48,7 +48,7 @@ a {
     height: 100vh;
     overflow: hidden;
     background-color: #000;
-    background-image: url(../img/bg-movie.png);
+    background-image: url(../img/bg.png);
     background-size: cover;
     background-position: center;
     &:before {
@@ -208,10 +208,10 @@ a {
                             text-transform: uppercase;
                             transition: 0.3s;
                             &.active {
-                                color: #ff455d;
+                                color: #FF7255;
                             }
                             &:hover {
-                                color: #ff455d;
+                                color: #FF7255;
                             }
                         }
                     }
@@ -234,7 +234,7 @@ a {
                 left: 0;
                 width: 5000px;
                 height: 3px;
-                background: #de3a48;
+                background: #FF7200 ;
             }
             .slide {
                 outline: none;
@@ -256,7 +256,7 @@ a {
                 &.slick-current {
                     font-size: 56px;
                     line-height: 56px;
-                    color: #de3a48;
+                    color: #FF7200 ;
                 }
             }
         }
@@ -326,7 +326,7 @@ a {
         text-align: center;
         font-weight: normal;
         font-family: BebasNeueBold;
-        color: #de3a48;
+        color: #FF7200 ;
         font-size: 32px;
         letter-spacing: 0.4px;
         margin-bottom: 50px;
@@ -351,7 +351,7 @@ a {
                 width: 36px;
                 height: 36px;
                 border-radius: 50%;
-                border: 2px solid #ff556b;
+                border: 2px solid #FF7222 ;
                 background-image: url(../img/checked.svg);
                 background-size: 19px;
                 background-repeat: no-repeat;
@@ -401,7 +401,7 @@ a {
                     position:relative;
                     left: 5px;
                     padding-right: 5px;
-                    background-color: #f3364a;
+                    background-color: #FF7211;
                     &:before{
                         content: "";
                         display: block;
@@ -409,7 +409,7 @@ a {
                         top: 0;
                         right: 100%;
                         height: 100%;
-                        background-color: #f3364a;
+                        background-color: #FF7211;
                         width: 5000px;
                     }
                 }
@@ -461,7 +461,7 @@ a {
                 width: 50px;
                 height: 50px;
                 flex-shrink: 0;
-                background: #ff455d;
+                background: #FF7255;
                 border-radius: 50%;
                 display: flex;
                 justify-content: center;
@@ -567,7 +567,7 @@ a {
             font-family: BebasNeueRegular;
             font-size: 48px;
             letter-spacing: 0.4px;
-            color: #f3364a;
+            color: #FF7211;
             bottom: 100%;
         }
     .timeline {
@@ -704,9 +704,9 @@ a {
             &:last-child {
                 .flex-bg {
                     .bg {
-                        background: #ff455d;
+                        background: #FF7255;
                         &:before{
-                             border-color: transparent transparent #ff455d transparent;
+                             border-color: transparent transparent #FF7255 transparent;
                             
                         }
                     }
