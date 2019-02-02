@@ -9,6 +9,8 @@
 
 
 @media (max-width: 1300px) {
+    
+
 
   .sec-lvl-2 .menu .side.left-side {
     padding-left: 15px; }
@@ -17,7 +19,13 @@
     font-size: 19px; }
 
   .sec-lvl-2 .menu .side.mid-side {
-    max-width: 755px; } }
+    max-width: 755px; } 
+
+        .sec-lvl-3 .data .img {
+        margin-right: -200px;
+    }
+
+}
 
 
 
