@@ -54,12 +54,26 @@
         .sec-lvl-3 .data .img {
         margin-right: -200px;
     }
+    
+        .sec-lvl-12 .content .left-side {
+        padding-left: 8px;
+    }
+    
+    .sec-lvl-12 .content .right-side {
+        height: 472px;}
+    
+    .sec-lvl-12 .content .right-side .info {
+        margin-left: 0;
+        width: auto;
+    }
 
 }
 
 
 
 @media (max-width: 1199px) {
+
+    
     
         .sec-lvl-2 .about .content-block {
             padding-left: 33px;
@@ -109,6 +123,19 @@
 
   .sec-lvl-2 .about .sl-2 .slick-arrow.slick-next {
     right: -38px; }
+    
+    .sec-lvl-12 .content {
+        display: block;
+    }
+    
+    .sec-lvl-12 .content .left-side {
+	    padding-bottom: 28px;
+    }
+    .sec-lvl-12 .content .right-side .info {
+        margin-top: 0;
+    }
+    
+    
 
   .section-11-review .max-w-865 h3 {
     padding-top: 60px; }
