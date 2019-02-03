@@ -85,6 +85,18 @@ $(document).ready(function () {
         $('#vango').modal('show');
     });
     
+    $('.open-modal-org-1').click(function(){
+        $('#org1').modal('show');
+    });
+    $('.open-modal-org-2').click(function(){
+        $('#org2').modal('show');
+    });
+    $('.open-modal-org-3').click(function(){
+        $('#org3').modal('show');
+    });
+    
+    
+    
     
     $('.read-more-btn').click(function(){
         $('#add-text').css({"display": "block"});

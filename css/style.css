@@ -1391,13 +1391,47 @@ width:191px;
 
 
 
+.sec-lvl-15 .line-partners .partner-with
+{
+     width: 250px;
+    
+    text-align: center;
+}
 
 
+.sec-lvl-15 .line-partners .partner-with .img {
+     width: 231px;
+    height: 134px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
+.sec-lvl-15 .line-partners .partner-with p {
+    padding-top: 20px;
+    font-family: Helvetica;
+line-height: normal;
+font-size: 16px;
+text-align: center;
+height: 53px;
+color: #000000;
+    
+    font-weight: 600;
+}
 
+.sec-lvl-15 .line-partners .partner-with .add-info{
+    max-width: 160px;
+    margin: 0 auto;
+    background-color: #EC681D;
+    padding: 12px 30px;
+    font-family: Helvetica;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
 
-
-
+    color: #FFFFFF;
+}
 
 
 .max-w-1100 {
