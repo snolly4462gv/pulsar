@@ -1,3 +1,33 @@
+@media (min-width: 1500px) {
+
+.sec-lvl-3 .data {
+         display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+}
+    
+.sec-lvl-3 .data .img {
+    float: none;
+   
+    background-image: url(./../img/E%20Commerce%203.svg);
+    width: 613px;
+    height: 640px;
+    margin-top: 40px;
+
+}
+
+.sec-lvl-3 .data .list {
+    padding-top: 74px;
+    text-align: right;
+/*    float: left;*/
+} 
+    
+    .sec-lvl-4 .add-text .title {
+        padding-top: 20px;}
+
+}
+
+
 @media (max-width: 1500px) {
     
   .sec-lvl-2 .menu .side.mid-side {

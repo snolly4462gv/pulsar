@@ -454,7 +454,6 @@ a {
   margin-top: 5px;
 }
 
-
 .sec-lvl-3 .data .img {
     float: right;
     background-image: url(./../img/E%20Commerce%203.svg);
@@ -462,7 +461,7 @@ a {
     height: 640px;
     margin-right: -88px;
     margin-left: 109px;
-    margin-top: -12px;
+    margin-top: 3px;
 }
 
 .sec-lvl-3 .data .list {
@@ -895,6 +894,45 @@ line-height: normal;
   margin-top: 5px;
 }
 
+.sec-lvl-12 .content {
+    width: 100%;
+    display: flex;
+    padding-top: 51px;
+}
+
+.sec-lvl-12 .content .left-side {
+    width: 100%;
+        min-width: 600px;
+    padding-left: 132px;
+    padding-right: 36px;
+}
+.sec-lvl-12 .content .left-side .list {
+    width: 100%;
+}
+
+.sec-lvl-12 .content .left-side .list .item {
+
+    width: 100%;
+    background: #FFFFFF;
+border: 1px solid #EAEAEA;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+
+
+.sec-lvl-12 .content .right-side {
+
+/*    height: 472px;*/
+    margin: auto 0;
+}
+
+.sec-lvl-12 .content .right-side .info {
+        width: 597px;
+    background: #EC681D;
+    align-items: center;
+    color: #fff;
+}
 
 
 
