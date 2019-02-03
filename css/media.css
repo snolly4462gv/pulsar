@@ -477,4 +477,226 @@
     max-width: 300px;
     margin: 0 auto; } }
 
+@media (max-width: 480px) { 
+    .sec-lvl-1 .for-pulsar-logo-and-text {
+        padding: 0;
+        padding-top: 100px;
+    }
+    
+    .sec-lvl-1 .for-pulsar-logo-and-text .center {
+        width: 100%;
+        padding-top: 70px;
+    }
+    
+    .sec-lvl-1 .for-pulsar-logo-and-text .center .big-text {
+        font-size: 48px;
+    }
+    
+    .sec-lvl-menu .menu .side.mid-side {
+        padding: 0;
+    }
+    
+    .sec-lvl-menu .menu .side.mid-side ul {
+        justify-content: center;
+    }
+    
+    .sec-lvl-menu .menu .side.mid-side ul li a {
+        font-size: 6px;
+    padding: 0 4px;
+    }
+    
+    .sec-lvl-2 .about {
+        display: block;
+        padding-top: 20px;
+    }
+    
+    .sec-lvl-2 .about .img-block {
+        margin: 0 auto;
+        width: 50%;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .sec-lvl-2 .about .content-block {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sec-lvl-2 .about .content-block .title {
+        margin: 0 auto;
+            font-size: 24px;
+        padding-top: 12px;
+    }
+    .sec-lvl-2 .about .content-block .text {
+        padding: 12px;
+    }
+    .sec-lvl-2 .about .content-block .read-more-btn {
+        margin: 0 auto;}
+    
+        
+    .sec-lvl-3 {
+        padding: 12px;
+    }
+    
+    .sec-lvl-3 .data .img {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 200px;
+        background-position: center;
+        width: 100%;
+    }
+    
+    .sec-lvl-3 .title p {
+            font-size: 24px;
+    }
+    .sec-lvl-3 .data .list .btn-invite {
+            padding-bottom: 14px;
+    }
+    
+    .sec-lvl-4 .content {
+        padding: 0;
+    }
+    
+    .sec-lvl-4 .title p {
+           font-size: 30px;
+        padding-bottom: 21px;
+    }
+    
+    .sec-lvl-5 .title p {
+        font-size: 24px;
+    }
+    
+    .sec-lvl-10 h3 {
+        padding-top: 12px;
+    }
+    .sec-lvl-10 p {
+            font-size: 15px;
+    }
+    
+    .sec-lvl-11 .title {
+        padding-top: 36px;
+        font-size: 24px;
+    }
+    
+    .timeline {
+        padding: 36px  10px
+    }
+    
+    .entry .title {
+        padding-right: 55px;
+    }
+    .entry .title h3 {
+        font-size: 16px;
+    }
+    
+    .entry .body {
+         padding-left: 55px;
+    }
+    .entry .body h3 {
+        font-size: 16px;
+    }
+    
+    .entry .body p {
+        font-size: 12px;
+    }
+    
+    .entry .title p {
+        font-size: 12px;
+    }
+    
+    .sec-lvl-12 .title p {
+        font-size: 24px;
+    }
+    
+    .sec-lvl-12 .content .left-side {
+    padding-left: 0px;
+        min-width: 0;
+    }
+    
+    
+    .sec-lvl-12 .content .right-side .info {
+        padding: 12px;
+    }
+    
+    .sec-lvl-12 .content .right-side .info .desc {
+        font-size: 12px;
+    }
+    
+    .sec-lvl-12 .content .right-side .info .par {
+            font-size: 14px;
+    }
+    
+    .sec-lvl-12 .content .btn-invite {
+        margin: 0 auto;
+    }
+    
+    .sec-lvl-12 .content .left-side ul li .title {
+            font-size: 16px;
+
+    }
+    
+    .sec-lvl-12 .content .left-side ul li .hidden-block-desc {
+        padding: 12px 16px;
+    }
+    
+    .sec-lvl-12 .content .left-side .list {
+        margin: 0;
+    }
+    
+    .sec-lvl-12 .content .left-side {
+        padding-right: 0;
+    }
+    
+    .sec-lvl-12 .content .left-side ul li .title {
+        padding-right: 0px;
+    }
+    .sec-lvl-12 .content .btn-invite{
+        margin-top: 16px;
+    }
+    
+    .sec-lvl-13 .title {
+        padding-top: 40px;
+    }
+    
+    .sec-lvl-13 .title p {
+        font-size: 24px;
+    }
+    .sec-lvl-13 .content {
+        padding-top: 35px;
+    }
+    
+    .sec-lvl-13 .btn-invite {
+        padding-top: 24px;
+        padding-bottom: 40px;
+    }
+    
+    .sec-lvl-14 .title p {
+        font-size: 24px;
+    }
+    
+    .sec-lvl-14 .content {
+        padding: 12px 0;
+    }
+    
+    .sec-lvl-14 {
+        padding-bottom: 0px;
+    }
+    
+    .sec-lvl-15 {
+        padding: 0px;
+    }
+    
+    .sec-lvl-15 .title p {
+        font-size: 32px;
+    }
+    
+    .sec-lvl-15 .subtitle {
+        padding-top: 35px;
+    }
+    
+    .sec-lvl-15 .subtitle p {
+        text-align: center;
+    }
+}
+
 /*# sourceMappingURL=media.css.map */
