@@ -24,6 +24,17 @@
     
     .sec-lvl-4 .add-text .title {
         padding-top: 20px;}
+    
+    .sec-lvl-16 .content .center .arrows {
+        justify-content: space-between;
+    }
+    .sec-lvl-16 .content .center .arrows:before {
+        content: "";
+        width: 200%;
+        height: 4px;
+        background-color: white;
+        position: absolute;
+    }
 
 }
 
@@ -65,6 +76,14 @@
     .sec-lvl-12 .content .right-side .info {
         margin-left: 0;
         width: auto;
+    }
+    
+    .sec-lvl-16 .rub.rub5 {
+        display: none;
+    }
+    
+    .sec-lvl-16 .rub.rub4 {
+        display: none;
     }
 
 }
@@ -110,7 +129,17 @@
     padding-right: 15px; }
 
   .sec-lvl-7 .timeline .one-time .text-lvl-1 {
-    font-size: 16px; } }
+    font-size: 16px; } 
+    
+    .sec-lvl-16 .content {
+        padding-top: 40px;
+    }
+    
+    .sec-lvl-16 .content .center .arrows {
+        padding: 12px 0;
+    }
+
+}
 
 
 
@@ -200,7 +229,14 @@
 
   .for-flag {
     top: -16px;
-    margin-bottom: 25px; } }
+    margin-bottom: 25px; } 
+
+    .sec-lvl-16 .content {
+        padding: 0;
+        padding-top: 36px; 
+    }
+
+}
 
 
 
@@ -475,7 +511,28 @@
   .parteners .flex-partners .one-partner {
     width: 100%;
     max-width: 300px;
-    margin: 0 auto; } }
+    margin: 0 auto; } 
+
+    .sec-lvl-16 .content .center .arrows {
+        display: block;
+    }
+    
+    .sec-lvl-16 .rub.rub3 {
+        display: none;
+    }
+    
+    .sec-lvl-16 .content {
+        height: 100%;
+    }
+    
+    .sec-lvl-16 .content .center .arrows .element .arrow.arrow2, .sec-lvl-16 .content .center .arrows .element .arrow.arrow3 {
+        background-image: url(../img/arrow1.svg);
+            width: 35px;
+    height: 70px;
+    }
+    
+
+}
 
 @media (max-width: 480px) { 
     
@@ -742,6 +799,14 @@
     .sec-lvl-15 .line-partners .partner-with p {
         font-size: 15px;
         height: auto;
+    }
+    
+    .sec-lvl-16 .content .center .title p {
+        font-size: 32px;
+    }
+    
+    .sec-lvl-16 .content .center .arrows .element .text span {
+        font-size: 28px;
     }
     
 }

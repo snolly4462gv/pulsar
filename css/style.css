@@ -1328,7 +1328,7 @@ width:191px;
 
 .sec-lvl-15.img .img-container {
     padding: 37px 0;
-    background: url(../img/15371-%5BConverted%5D.png);
+    background: url(../img/2-%5BConverted%5D.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1342,6 +1342,7 @@ width:191px;
   width: 100%;
   display: flex;
   justify-content: center;
+    padding-top: 24px;
 }
 
 .sec-lvl-15 .title p { 
@@ -1429,6 +1430,7 @@ width:191px;
      width: 250px;
     
     text-align: center;
+    padding: 12px;
 }
 
 
