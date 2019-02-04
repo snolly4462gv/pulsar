@@ -762,6 +762,7 @@ color: #FFFFFF;
   background: #fff;
   padding: 64px 50px;
   position: relative;
+        z-index: 2;
 }
 .timeline:before {
   content: '';
@@ -876,8 +877,70 @@ line-height: normal;
     font-weight: 600;
 }
 
+.ellipse {
+    position: absolute;
+    background-image: url(../img/Ellipse.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 3;
+    opacity: 0.75;
+}
+.ellipse.ellipse1 {
+	width: 96px;
+    height: 96px;
+    left: 45px;
+}
+
+.ellipse.ellipse2 {
+	width: 96px;
+    height: 96px;
+    right: 45px;
+    margin-top: 65px;
+}
 
 
+.ellipse.ellipse3 {
+	width: 48px;
+    height: 48px;
+    left: 145px;
+    margin-top: 380px;
+}
+
+.ellipse.ellipse4 {
+	width: 48px;
+    height: 48px;
+    right: 170px;
+    margin-top: 320px;
+}
+
+.ellipse.ellipse5 {
+	width: 35px;
+    height: 35px;
+    left: 62px;
+    margin-top: 591px;
+}
+
+.ellipse.ellipse6 {
+	width: 35px;
+    height: 35px;
+    right: 47px;
+    margin-top: 548px;
+}
+
+.ellipse.ellipse7 {
+	width: 96px;
+    height: 96px;
+    left: 121px;
+    margin-top: 760px;
+}
+
+.ellipse.ellipse8 {
+	width: 96px;
+    height: 96px;
+    right: 146px;
+    margin-top: 777px;
+}
 
 
 .sec-lvl-12 .title {
