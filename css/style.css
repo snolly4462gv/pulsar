@@ -178,6 +178,15 @@ a {
 
 }
 
+.link, .link:hover, .link:visited {
+    color: white;
+            text-decoration: none;
+    border-bottom: none;
+        cursor: pointer;
+}
+
+
+
 
 .sec-lvl-1 .logo-men{
     position: absolute;
@@ -1014,7 +1023,7 @@ line-height: normal;
         margin-left: 30px;
         width: 597px;
     background: #EC681D;
-    margin-top: -124px;
+/*    margin-top: -124px;*/
     color: #fff;
     
     padding-left: 50px;
@@ -1028,7 +1037,7 @@ line-height: normal;
 
     color: #FFFFFF;
     
-    text-align: left;
+    text-align: lef
 }
 
 .sec-lvl-12 .content .right-side .info .title {
