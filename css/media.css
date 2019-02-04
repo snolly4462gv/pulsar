@@ -30,7 +30,7 @@
     }
     .sec-lvl-16 .content .center .arrows:before {
         content: "";
-        width: 200%;
+        width: calc(100% - 212px);
         height: 4px;
         background-color: white;
         position: absolute;
