@@ -12,14 +12,14 @@ $(document).ready(function () {
     });
 
     if ($(window).scrollTop() >= $(".sec-lvl-menu .menu").offset().top) {
-        $(".sec-lvl-2 .about").css({
+        $(".sec-lvl-5 ").css({
             "margin-top": 67
         });
         $(".sec-lvl-menu .menu").addClass("js-fixed");
 
     }
     if ($(window).scrollTop() < $(".sec-lvl-1").height()) {
-        $(".sec-lvl-2 .about").css({
+        $(".sec-lvl-5").css({
             "margin-top": "0"
         });
         $(".sec-lvl-menu .menu").removeClass("js-fixed");
@@ -35,14 +35,14 @@ $(document).ready(function () {
     $(window).scroll(function () {
         
         if ($(window).scrollTop() >= $(".sec-lvl-menu .menu").offset().top) {
-            $(".sec-lvl-2 .about").css({
+            $(".sec-lvl-5").css({
                 "margin-top": 67
             });
             $(".sec-lvl-menu .menu").addClass("js-fixed");
 
         }
         if ($(window).scrollTop() < $(".sec-lvl-1").height()) {
-            $(".sec-lvl-2 .about").css({
+            $(".sec-lvl-5").css({
                 "margin-top": "0"
             });
             $(".sec-lvl-menu .menu").removeClass("js-fixed");

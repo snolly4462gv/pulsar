@@ -109,7 +109,7 @@ a {
 
         .sec-lvl-1 .for-pulsar-logo-and-text .center {
             padding-top: 111px;
-            width: 500px;
+/*            width: 500px;*/
             margin: 0 auto;
             text-align: center;
         }
@@ -117,12 +117,14 @@ a {
         .sec-lvl-1 .for-pulsar-logo-and-text .center .small-text
         {
             font-family: Helvetica;
-            line-height: normal;
-            font-size: 25px;
+            line-height: 28px;
 
+            font-size: 20px;
+            max-width: 610px;
+            margin: 0 auto;
             color: #FFFFFF;
 /*             font-weight: 300;*/
-            margin-bottom: 20px;
+            margin-bottom: 52px;
         }
 
         .sec-lvl-1 .for-pulsar-logo-and-text .center .big-text
@@ -265,7 +267,7 @@ a {
 .sec-lvl-2 .about {
     
   padding-top: 98px;
-  padding-bottom: 50px;
+/*  padding-bottom: 50px;*/
   background: #fff;
   overflow: hidden; 
     display: inline-flex;
@@ -687,7 +689,7 @@ color: #FFFFFF;
 
 
 .sec-lvl-5 .invite-btn {
-    width: 232px;
+    width: 456px;
     background: #EC681D;
     margin: 0 auto;
     text-align: center;
@@ -715,6 +717,7 @@ color: #FFFFFF;
     text-align: center;
     color: #FFFFFF;
     height: 235px;
+    margin-top: 85px;
 }
 .sec-lvl-10 h3 {
     padding-top: 50px;
@@ -1309,6 +1312,23 @@ width:191px;
     background-color: #fff;
 }
 
+
+.sec-lvl-15.img {
+    padding: 0px;
+}
+
+.sec-lvl-15.img .img-container {
+    padding: 37px 0;
+    background: url(../img/15371-%5BConverted%5D.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+}
+
+
+
 .sec-lvl-15 .title {
   width: 100%;
   display: flex;
@@ -1435,6 +1455,15 @@ color: #000000;
     text-transform: uppercase;
     cursor: pointer;
     color: #FFFFFF;
+}
+
+
+.sec-lvl-15.img .subtitle p {
+    color: white;
+}
+
+.sec-lvl-15.img .line-partners .partner-with p {
+        color: white;
 }
 
 
