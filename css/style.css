@@ -1467,6 +1467,145 @@ color: #000000;
 }
 
 
+
+
+.sec-lvl-16 .content {
+
+    padding: 92px;
+    background-image: url(../img/image%202.1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 670px;
+}
+
+.sec-lvl-16 .content .center {
+/*    width: 720px;*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sec-lvl-16 .content  .center .title {
+        text-align: center;
+}
+
+.sec-lvl-16 .content .center .title p {
+        text-align: center;
+    
+        font-family: Helvetica;
+        line-height: normal;
+        font-size: 50px;
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    
+    font-weight: 600;
+}
+
+.sec-lvl-16 .content .center .title p span {
+    color: #EC681D;
+}
+
+.sec-lvl-16 .content .center .arrows {
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 12px 120px;
+}
+
+.sec-lvl-16 .content .center .arrows .element {
+/*    max-width: 250px;*/
+}
+
+.sec-lvl-16 .content .center .arrows .element .arrow {
+    margin: 0 auto;
+
+}
+.sec-lvl-16 .content .center .arrows .element .arrow.arrow1 {
+    background-image: url(../img/arrow1.svg);
+    background-size: contain;
+    width: 35px;
+    height: 70px;
+}
+
+.sec-lvl-16 .content .center .arrows .element .arrow.arrow2 {
+    background-image: url(../img/arrow2.svg);
+    background-size: contain;
+    width: 35px;
+    height: 160px;
+}
+
+.sec-lvl-16 .content .center .arrows .element .arrow.arrow3 {
+    background-image: url(../img/arrow3.svg);
+    background-size: contain;
+    width: 35px;
+    height: 265px;
+}
+
+.sec-lvl-16 .content .center .arrows .element .text {
+    padding: 30px 4px;
+    
+    font-family: Helvetica;
+line-height: normal;
+font-size: 20px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.sec-lvl-16 .content .center .arrows .element .text span {
+
+font-size: 35px;
+
+
+
+color: #EC681D;
+}
+
+.sec-lvl-16 .rub {
+    position: absolute;
+    background-image: url(../img/ruble-currency-sign.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec-lvl-16 .rub.rub1 {
+    margin-top: -140px;
+    width: 150px;
+    height: 150px;
+}
+
+.sec-lvl-16 .rub.rub2 {
+    margin-top: 300px;
+    margin-left: -40px;
+    width: 250px;
+    height: 250px;
+}
+
+.sec-lvl-16 .rub.rub3 {
+    margin-top: 420px;
+    margin-left: 420px;
+    width: 150px;
+    height: 150px;
+}
+
+.sec-lvl-16 .rub.rub4 {
+    margin-top: 10px;
+    margin-left: 950px;
+    width: 150px;
+    height: 150px;
+}
+
+.sec-lvl-16 .rub.rub5 {
+    margin-top: 350px;
+    margin-left: 1050px;
+    width: 140px;
+    height: 140px;
+}
+
 .max-w-1100 {
   max-width: 1000px;
   margin: 0 auto;
