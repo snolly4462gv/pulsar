@@ -601,7 +601,7 @@
     
     .sec-lvl-1 .for-pulsar-logo-and-text .center {
         width: 100%;
-        padding-top: 70px;
+        padding-top: 10px;
     }
     
     .sec-lvl-1 .for-pulsar-logo-and-text .center .big-text {
@@ -860,6 +860,16 @@
     
     .ellipse {
         display: none;
+    }
+    
+        .sec-lvl-12 .content .right-side {
+ min-height: 472px;
+            height: 100%;
+    }
+    
+    .sec-lvl-10 {
+        min-height: 235px;
+        height: 100%;
     }
     
 }
